@@ -42,8 +42,9 @@ dependencies {
     implementation(libs.material)
 
     testImplementation(libs.junit)
-    testImplementation("org.jetbrains.kotlin:kotlin-test")  // Add this for kotlin.test
+    testImplementation("org.jetbrains.kotlin:kotlin-test")
 
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    androidTestImplementation("org.jetbrains.kotlin:kotlin-test")
 }
