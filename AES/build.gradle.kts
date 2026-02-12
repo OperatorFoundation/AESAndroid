@@ -8,7 +8,7 @@ android {
     compileSdk = 36  // Changed from compileSdk { version = release(36) }
 
     defaultConfig {
-        minSdk = 33
+        minSdk = 28
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
     }
